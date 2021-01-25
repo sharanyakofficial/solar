@@ -1,0 +1,83 @@
+body{
+    margin:0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: 0;
+    font-weight: normal;
+    position: relative;
+    padding: 0 0 10px 0;
+    font-weight: normal;
+    line-height: 120% !important;
+    color: #1f1f1f;
+    margin: 0
+}
+h1{
+    background-color: rgb(9, 10, 10);
+    color:rgb(245, 239, 239);
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+h2{
+    font-family: fantasy;
+}
+h3{
+    font-family:'Times New Roman', Times, serif;
+}
+.section {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    padding: 120px 0;
+}
+.message-box h4 {
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0 0 5px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    font-size: 15px;
+    color: #999;
+}
+
+.message-box h2 {
+    font-size: 28px;
+    font-weight: 500;
+    padding: 0 0 10px;
+    margin: 0;
+    line-height: 62px;
+    margin-top: 0;
+    text-transform: none;
+}
+
+.message-box p {
+    margin-bottom: 20px;
+}
+
+.message-box .lead {
+    padding-top: 10px;
+    font-size: 19px;
+    font-style: italic;
+    color: #999;
+    padding-bottom: 0;
+}
+
+.post-media {
+    position: relative;
+}
+
+.post-media img {
+    width: 100%;
+}
+.btn-light {
+    padding: 13px 40px;
+    font-size: 18px;
+    border: 2px solid #fd6802;
+    color: #ffffff;
+    background-color: #fd6802;
+}
